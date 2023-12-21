@@ -1,10 +1,10 @@
 <!--Tim Berners Lee invented the worldwide web. Write an html document from scratch that includes:
 
-a. doctype declaration (X)
+a. doctype declaration ****
 
-b. an opening and closing tag that specifies the language of the document (X)
+b. an opening and closing tag that specifies the language of the document ****
 
-c. a portion of the document that describes information about the document including the way that the viewport is scaled for mobile (X)
+c. a portion of the document that describes information about the document including the way that the viewport is scaled for mobile ****
 
 d. a portion of the document that contains the content in a main tag, including
 
@@ -30,5 +30,31 @@ h. add an html 5 semantic tag at the end of the document that includes a copyrig
         <h1>Tim Berners-Lee</h1>
     </header>
 
+    <section>
+        <img src="tim berners lee.jpg" alt="Tim Berners-Lee" aria-describedby="tim-description">
+        <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+            title="Tim Berners-Lee Wiki" target="_blank"></a>
+    </section>
+
     <main>
-        <img src="
+        <h2>Introduction to the World Wide Web</h2>
+
+        <ul>
+            <li>
+                <strong>Creation and Inventor:</strong> In 1989, Tim Berners-Lee developed the concept of the Web as a way to facilitate the sharing of information between scientists and researchers globally.
+            </li>
+            <li>
+                <strong>Basic Components:</strong> HTTP serves as the fundamental framework for data communication on the Web, which allows the transmission of texts, images, multimedia, and various files between web servers and clients. 
+            </li>
+            <li>
+                <strong>Global Impact:</strong> Has significantly influenced communication, commerce, education, and entertainent worldwide. 
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+       <p>&copy; Chloe Hung <span id="current-year"></span></p>
+    <script>
+    document.getElementById('current-year').innerHTML = new Date().getFullYear();
+    </script>
+    </footer>
